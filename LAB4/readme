@@ -1,0 +1,5 @@
+To run:
+    - $ make
+    - $ sbatch run.sh
+
+To change the number of threads or number of nodes, go to the main function at the bottom of generateTree.cpp

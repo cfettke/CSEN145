@@ -1,0 +1,8 @@
+To run:
+    $ make
+    $ sbatch run.sbatch
+
+To edit matrix size, change values in run.sh, first value is A_rows, second is A_cols,
+third is B_cols, and fourth is fill size
+
+Within the accumulator program, there are a few functions. Main which contains the program info, printMatrix which prints a desired matrix, multiplyCSRMatrix which is the CSR multiplication algorithm, and multiplyNormalMatrix which is the standard matrix multiplication algorithm.
